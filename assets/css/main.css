@@ -17,7 +17,7 @@ html {
 }
 .kaarten {
     width: 100%;
-    margin-bottom: 15vh;
+    margin-bottom: 20vh;
 }
 .container-fluid {
     padding-left: 10vw;
@@ -35,6 +35,8 @@ body {
 }
 
 a {
+    display: block;
+    margin-top: 0.5rem;
     background-color: transparent;
     border: none;
     border-bottom: 1px solid #e9a187;
@@ -45,7 +47,8 @@ a {
     font-size: 1.2rem;
 }
 p {
-    color: #201e39;
+    color: white;
+    opacity: 0.5;
 }
 
 .em {
